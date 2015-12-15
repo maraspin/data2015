@@ -28,8 +28,8 @@ try {
 // Diamo per assodato (azzardato ...ma tant'è, per lo scopo di questo esercizio) 
 // che l'errore sia dovuto a un problema in autenticazione
 if ($isError) {
-  include('include/loginLink.php');
-  exit;
+  // @TODO: Generare qui il link per il login
+  // Vedere https://developers.facebook.com/docs/php/howto/example_facebook_login
 }
 
 // Recuperiamo l'utente

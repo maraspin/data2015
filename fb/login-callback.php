@@ -30,7 +30,7 @@ if ($b_error) {
 
 // Utilizzeremo questo valore in sessione per memorizzare l'accessToken fornito da FB 
 // e necessario per eseguire le successive chiamate
-$_SESSION['facebook_access_token'] = (string) $accessToken;
+$_SESSION['facebook_access_token'] = 'ACCESSTOKEN'; // @TODO: popolare la sessione con l'access Token
 
 // Rimandiamo l'utente alla pagina principale della nostra applicazione
 header("Location: index.php");

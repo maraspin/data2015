@@ -15,7 +15,7 @@ if (empty($s_accessToken)) {
 
 // Creiamo l'applicazione FB vera e propria, impostando gli opportuni parametri
 $fb = new Facebook\Facebook([
-  'app_id' => 'APP_ID',
-  'app_secret' => 'APP_SECRET',
+  'app_id' => 'APP_ID', // @TODO: Impostare con valori della tua applicazione
+  'app_secret' => 'APP_SECRET', // @TODO: Impostare con valori della tua applicazione
   'default_graph_version' => 'v2.2',
   ]);
